@@ -1,0 +1,25 @@
+en:
+  shared:
+    admin:
+      image_picker:
+        image: image
+  plugins:
+    success_stories:
+      title: Success Stories
+  admin:
+    success_stories:
+      actions:
+        create_new: Add New Success Story
+        reorder: Reorder Success Stories
+        reorder_done: Done Reordering Success Stories
+      records:
+        title: Success Stories
+        sorry_no_results: Sorry! There are no results found.
+        no_items_yet: There are no Success Stories yet. Click "Add New Success Story" to add your first success story.
+      success_story:
+        view_live_html: View this success story live <br/><em>(opens in a new window)</em>
+        edit: Edit this success story
+        delete: Remove this success story forever
+  success_stories:
+    show:
+      other: Other Success Stories

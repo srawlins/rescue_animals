@@ -1,3 +1,8 @@
+PATH
+  remote: vendor/engines
+  specs:
+    refinerycms-success_stories (1.0)
+
 GEM
   remote: http://rubygems.org/
   specs:
@@ -152,3 +157,4 @@ DEPENDENCIES
   rails (= 3.0.7)
   refinerycms (= 0.9.9.18)
   refinerycms-i18n (~> 1.0.0)
+  refinerycms-success_stories (= 1.0)!

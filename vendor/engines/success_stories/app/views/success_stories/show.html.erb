@@ -1,0 +1,39 @@
+<% content_for :body_content_title do %>
+  <%= @success_story.title %>
+<% end %>
+
+<% content_for :body_content_left do %>
+  <section>
+    <h1>Title</h1>
+    <p>
+      <%=raw @success_story.title %>
+    </p>
+  </section>
+  <section>
+    <h1>Photo</h1>
+    <p>
+      <%= image_fu @success_story.photo, nil %>
+    </p>
+  </section>
+  <section>
+    <h1>Story</h1>
+    <p>
+      <%=raw @success_story.story %>
+    </p>
+  </section>
+<% end %>
+
+<% content_for :body_content_right do %>
+  <aside>
+    <h2><%= t('.other') %></h2>
+    <ul id="success_stories">
+      <% @success_stories.each do |success_story| %>
+        <li>
+          <%= link_to success_story.title, success_story_url(success_story) %>
+        </li>
+      <% end %>
+    </ul>
+  </aside>
+<% end %>
+
+<%= render :partial => "/shared/content_page" %>

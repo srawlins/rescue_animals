@@ -1,0 +1,25 @@
+lolcat:
+  shared:
+    admin:
+      image_picker:
+        image: IMAGE
+  plugins:
+    success_stories:
+      title: Success Stories
+  admin:
+    success_stories:
+      actions:
+        create_new: CREATE NEW Success Story
+        reorder: REORDR Success Stories
+        reorder_done: DUN REORDERIN Success Stories
+      records:
+        title: Success Stories
+        sorry_no_results: SRY! THAR R NO RESULTS FINDZ.
+        no_items_yet: THAR R NO Success Stories YET. CLICK "CREATE NEW Success Story" 2 ADD UR FURST success story.
+      success_story:
+        view_live_html: VIEW DIS success story LIV <BR/><EM>(OPENS IN NEW WINDOW)</EM>
+        edit: EDIT DIS success story
+        delete: REMOOV DIS success story FOREVR
+  success_stories:
+    show:
+      other: OTHR Success Stories

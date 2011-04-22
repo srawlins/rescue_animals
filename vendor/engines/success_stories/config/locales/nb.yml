@@ -1,0 +1,21 @@
+nb:
+  plugins:
+    success_stories:
+      title: Success Stories
+  admin:
+    success_stories:
+      actions:
+        create_new: Lag en ny Success Story
+        reorder: Endre rekkefølgen på Success Stories
+        reorder_done: Ferdig å endre rekkefølgen Success Stories
+      records:
+        title: Success Stories
+        sorry_no_results: Beklager! Vi fant ikke noen resultater.
+        no_items_yet: Det er ingen Success Stories enda. Klikk på "Lag en ny Success Story" for å legge til din første success story.
+      success_story:
+        view_live_html: Vis hvordan denne success story ser ut offentlig <br/><em>(åpner i et nytt vindu)</em>
+        edit: Rediger denne success story
+        delete: Fjern denne success story permanent
+  success_stories:
+    show:
+      other: Andre Success Stories

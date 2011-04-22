@@ -1,0 +1,21 @@
+nl:
+  plugins:
+    success_stories:
+      title: Success Stories
+  admin:
+    success_stories:
+      actions:
+        create_new: Maak een nieuwe Success Story
+        reorder: Wijzig de volgorde van de Success Stories
+        reorder_done: Klaar met het wijzingen van de volgorde van de Success Stories
+      records:
+        title: Success Stories
+        sorry_no_results: Helaas! Er zijn geen resultaten gevonden.
+        no_items_yet: Er zijn nog geen Success Stories. Druk op 'Maak een nieuwe Success Story' om de eerste aan te maken.
+      success_story:
+        view_live_html: Bekijk deze success story op de website <br/><em>(opent een nieuw venster)</em>
+        edit: Bewerk deze success story
+        delete: Verwijder deze success story voor eeuwig
+  success_stories:
+    show:
+      other: Andere Success Stories
