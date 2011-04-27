@@ -78,3 +78,6 @@ capybara-*html
 .rvmrc
 .rvmrc.*
 
+# Sam's
+Gemfile.lock
+bundle_install.bat
